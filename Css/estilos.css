@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Dosis:wght@200&family=Gruppo&family=Luckiest+Guy&family=Sonsie+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Black Ops One',sans-serif;
+    text-align: center;
+}
+
+nav{
+    padding: 30px 50px 0 0;
+}
+
+nav a{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 20px;
+    cursor: pointer;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    font-size: 0.6em;
+    color: #ffa718;
+    border: 4px solid #ffa718;
+    background-color: transparent;
+    padding: 20px 20px;
+    box-shadow: 1px 1px 15px 4px rgba(255, 255, 255, 0.8);
+}
+
+.contenedor{
+    width: auto;
+    font-size: 20px;
+    padding: 40px 0;
+    margin: auto;
+}
+
+header{
+    width: 100%;
+    height: 300px;
+    background: #e9d362;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5e5e5e, #ebd35c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #000000, #ad4ab0);  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+header .textos-h1{
+    color: #ffa718;
+    padding-top: 20px;
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+}
+
+.textos-h2{
+    color: #ffa718;
+    font-size: 20px;
+    text-align: center;
+    margin: auto; 
+}
+
+.textos-h3{
+    color: #ffa718;
+    padding-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+}
+
+.cita{
+    text-align: center;
+    margin-bottom: auto;
+    font-size: 2em;
+    color: black;
+    border-bottom: 3px solid black;
+}
+
+.contenedor-telefono{
+    font-size: 40px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+
+
+
